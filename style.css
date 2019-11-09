@@ -1,0 +1,86 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    
+}
+.box{
+    display: flex;
+    align-content: center;
+    margin-left: 0 auto;
+}
+#bgimg{
+    align-self: center;
+    height: 550px; width: 100%;
+    border-bottom-left-radius: 100px;
+    border-left:4px solid blue;
+    border-bottom:4px solid blue;
+}
+#profilepic{
+    width: 200px; 
+    height: 200px;
+    border-radius:50%; 
+    border:3px solid #6a6972;
+    box-shadow: 1px 1px 15px 2px #010301, -1px -1px 15px 2px #010301;
+}
+#name{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 37pt; 
+}
+#desc{
+    position: absolute; top:450px; margin-left:150px; margin-right:100px;
+}
+#description{
+    font-family: 'Righteous', cursive;
+    font-size: 16pt;
+}
+
+
+#insta,#fb,#whatsapp{
+	width: 50px; height: 50px;
+	cursor: pointer;
+}
+nav ul li{
+	display: inline-block; position: relative;   
+}
+nav{
+	 align-self: center; margin-left: 42%;
+}
+
+
+
+
+@media screen and (max-width:500px){
+    #bgimg{
+        height: 200px;
+    }
+    #profilepic{
+        width: 100px;
+        height: 100px;
+    }
+    #name{
+        font-size:20pt;
+    }
+    #desc{
+        position:absolute; top:100px;
+        margin-left:1px; margin-right:1px;
+    }
+}
+@media screen and (max-width:900px){
+    #bgimg{
+        height: 350px;
+    }
+    #profilepic{
+        width: 150px;
+        height: 150px;
+    }
+    #name{
+        font-size:28pt;
+    }
+    #desc{
+        position:absolute; top:250px;
+        margin-left:20px; margin-right:25px;
+    }
+    nav{
+        align-self: center; margin-left: 25%;
+    }
+}
